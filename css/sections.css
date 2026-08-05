@@ -36,21 +36,25 @@
 
 .news-slider{
 
-    display:flex;
+display:flex;
 
-    gap:25px;
+gap:28px;
 
-    overflow-x:auto;
+overflow-x:auto;
 
-    scroll-behavior:smooth;
+overflow-y:hidden;
 
-    padding-bottom:10px;
+padding-bottom:10px;
+
+scroll-behavior:smooth;
+
+scrollbar-width:none;
 
 }
 
 .news-slider::-webkit-scrollbar{
 
-    display:none;
+display:none;
 
 }
 

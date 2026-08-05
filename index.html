@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nexus Roleplay</title>
+
+    <meta name="description" content="Servidor de Emergency Response: Liberty County.">
+
+    <link rel="icon" href="assets/logo.png">
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="css/reset.css">
+
+    <link rel="stylesheet" href="css/variables.css">
+
+    <link rel="stylesheet" href="css/global.css">
+
+    <link rel="stylesheet" href="css/navbar.css">
+
+    <link rel="stylesheet" href="css/hero.css">
+
+    <link rel="stylesheet" href="css/cards.css">
+
+    <link rel="stylesheet" href="css/sections.css">
+
+    <link rel="stylesheet" href="css/footer.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="stylesheet" href="css/icons.css">
+    
+</head>
+
+<body>
+
+<div id="cursorGlow"></div>
+
+<canvas id="particles"></canvas>
+
+<header class="navbar">
+
+    <div class="container nav-container">
+
+        <a href="index.html" class="logo">
+
+            <img src="assets/logo.png"
+            alt="Nexus Roleplay">
+
+            <span>
+
+                NEXUS ROLEPLAY
+
+            </span>
+
+        </a>
+
+<button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+
+    <span></span>
+    <span></span>
+    <span></span>
+
+</button>
+
+<nav class="desktop-nav" id="desktopNav">
+
+    <a href="#">Inicio</a>
+
+    <a href="#news">Noticias</a>
+
+    <a href="normativas.html">Normativas</a>
+
+    <a href="https://nexusroleplayerlc.blogspot.com/" target="_blank">Blog</a>
+
+    <a href="https://discord.gg/G5dWtc5RMa" target="_blank">Discord</a>
+
+</nav>
+
+        <a
+
+        href="https://erlc.gg/join/NEXUS"
+
+        target="_blank"
+
+        class="join-btn">
+
+            Entrar →
+
+        </a>
+
+    </div>
+
+</header>
+
+<main>
+
+<section class="hero">
+
+    <div class="hero-background"></div>
+
+    <div class="container hero-grid">
+
+        <div class="hero-content">
+
+            <span class="hero-badge">
+
+                SERVIDOR DE ROLEPLAY
+
+            </span>
+
+            <h1>
+
+                Bienvenido a
+
+                <span>Nexus Roleplay</span>
+
+            </h1>
+
+            <p>
+
+                Vive una experiencia inmersiva en Emergency Response:
+                Liberty County con roleplay de calidad y una comunidad
+                activa y sana.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="https://discord.gg/G5dWtc5RMa"
+
+                   target="_blank"
+
+                   class="primary-btn">
+
+                    Unirse al Discord
+
+                </a>
+
+                <a href="https://nexusroleplayerlc.blogspot.com/"
+
+                   target="_blank"
+
+                   class="secondary-btn">
+
+                    Últimas novedades
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="hero-stats">
+
+    <div class="container">
+
+        <div class="stats-grid">
+
+            <div class="stat-card">
+
+                <h2 id="discordMembers">--</h2>
+
+                <span>Miembros online en el discord.</span>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h2>Organizaciones</h2>
+
+                <span>Libertad de creación de organizaciones legales (empresas) e ilegales.</span>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h2>Gobierno</h2>
+
+                <span>Organizaciones de gobierno como LSPD, LSSD, etc.</span>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h3>¿Querés postularte?</h3>
+                <span> En el discord se avisa cada vez que se abren. </span>
+                <BR>
+                <br>
+                <a href="https://discord.gg/G5dWtc5RMa" target="_blank" class="primary-btn"> INGRESAR </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="news-section reveal" id="news">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Las últimas novedades</h2>
+
+            <p>
+                Enterate de todas las novedades, eventos y actualizaciones del servidor.
+            </p>
+
+        </div>
+
+        <div class="news-slider" id="newsContainer">
+
+            <div class="news-loading"></div>
+            <div class="news-loading"></div>
+            <div class="news-loading"></div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="quick-access reveal">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Accesos rápidos</h2>
+
+        </div>
+
+        <div class="quick-grid">
+
+            <a href="https://discord.gg/G5dWtc5RMa" target="_blank" class="quick-card">
+
+                <div class="quick-icon">
+
+                <img
+                src="assets/icons/discord.png"
+                class="icon-lg"
+                alt="Discord">
+
+                </div>
+
+                <h3>Discord</h3>
+
+                <p>Únete a nuestra comunidad en discord.</p>
+
+            </a>
+
+            <a href="https://discord.gg/zvqyr59Mn2" target="_blank" class="quick-card">
+
+                <div class="quick-icon">
+
+                <img
+                src="assets/icons/soporte.png"
+                class="icon-lg"
+                alt="Soporte">
+
+                </div>
+
+                <h3>Soporte</h3>
+
+                <p>¿Necesitas ayuda? Accede al Discord clickeando y abre un ticket.</p>
+
+            </a>
+
+            <a href="normativas.html" class="quick-card">
+
+                <div class="quick-icon">
+
+                <img
+                src="assets/icons/normas.png"
+                class="icon-lg"
+                alt="Normativas">
+
+                </div>
+
+                <h3>Normativas</h3>
+
+                <p>Acceso a las reglas generales del servidor; recomendamos leer.</p>
+
+            </a>
+
+            <a href="https://forms.gle/jraz9oDAAkr5E1Pe9" class="quick-card">
+
+                <div class="quick-icon">
+
+                <img
+                src="assets/icons/apelar.png"
+                class="icon-lg"
+                alt="Apelaciones">
+
+                </div>
+
+                <h3>Apelaciones</h3>
+
+                <p>Apelaciones de permabaneo, debes rellenar el formulario.</p>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="streamers reveal">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h2>Creadores de Contenido Oficiales</h2>
+
+            <p>
+                Creadores de contenido que representan oficialmente a Nexus Roleplay.
+            </p>
+
+        </div>
+
+        <div class="streamers-grid">
+
+            <div class="streamer-card">
+
+                <img src="assets/streamers/default.png" alt="Streamer">
+
+                <h3>N/A</h3>
+
+                <span>Creador Oficial</span>
+
+                <div class="streamer-links">
+
+                    <a href="https://tiktok.com/">
+                    
+                    <img
+                    src="assets/icons/tiktok.png"
+                    class="icon-sm">
+                    
+                    TikTok
+
+                    </a>
+
+                    <a href="https://twitch.com/">
+                    
+                    <img
+                    src="assets/icons/twitch.png"
+                    class="icon-sm">
+                    
+                    Twitch
+
+                    </a>
+
+                    <a href="https://youtube.com/" target="_blank">
+                    
+                    <img
+                    src="assets/icons/youtube.png"
+                    class="icon-sm">
+                    
+                    Youtube
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="streamer-card">
+
+                <img src="assets/streamers/default.png" alt="Streamer">
+
+                <h3>N/A</h3>
+
+                <span>Creador Oficial</span>
+
+                <div class="streamer-links">
+
+                    <a href="https://tiktok.com/">
+                    
+                    <img
+                    src="assets/icons/tiktok.png"
+                    class="icon-sm">
+                    
+                    TikTok
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="streamer-card">
+
+                <img src="assets/streamers/default.png" alt="Streamer">
+
+                <h3>N/A</h3>
+
+                <span>Creador Oficial</span>
+
+                <div class="streamer-links">
+
+                    <a href="https://kick.com/">
+                    
+                    <img
+                    src="assets/icons/kick.png"
+                    class="icon-sm">
+                    
+                    Kick
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+        <div>
+
+            <img src="assets/logo.png" class="footer-logo">
+
+            <p>
+
+                Nexus Roleplay es una comunidad en Emergency Response:
+                Liberty County enfocada en el roleplay.
+
+            </p>
+
+        </div>
+
+        <div>
+
+            <h3>Comunidad</h3>
+
+            <a href="https://discord.gg/G5dWtc5RMa">Discord</a>
+
+            <a href="https://nexusroleplayerlc.blogspot.com/">Blog</a>
+
+            <a href="mantenimiento.html">TikTok</a>
+
+        </div>
+
+        <div>
+
+            <h3>Información</h3>
+
+            <a href="normativas.html">Normativas</a>
+
+            <a href="https://forms.gle/Y2cnvzhq8dJg8UVt9">Formulario STAFF</a>
+
+            <a href="https://forms.gle/wnqok8n3itk5Xzwx6">Formulario Creador de Contenido</a>
+
+            <a href="https://forms.gle/jraz9oDAAkr5E1Pe9">Apelaciones de PBAN</a>
+
+        </div>
+
+        <div>
+
+            <h3>Soporte</h3>
+
+            <a href="https://discord.gg/zvqyr59Mn2">
+
+                Canal de soporte en Discord
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="copyright">
+
+        Nexus Roleplay — No afiliados con Roblox Corporation ni Emergency Response: Liberty County (PRC).
+
+    </div>
+
+</footer>
+
+</main>
+
+<button id="backToTop" aria-label="Volver arriba">
+
+    ↑
+
+</button>
+
+<script src="js/particles.js"></script>
+<script src="js/navbar.js"></script>
+<script src="js/reveal.js"></script>
+<script src="js/blog.js"></script>
+<script src="js/discord.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+
+</html>

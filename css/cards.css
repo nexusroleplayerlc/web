@@ -154,3 +154,25 @@ opacity:1;
     font-weight:600;
 
 }
+
+.error-news{
+
+    width:100%;
+
+    padding:45px;
+
+    border-radius:18px;
+
+    text-align:center;
+
+    background:rgba(255,80,80,.08);
+
+    border:1px solid rgba(255,80,80,.15);
+
+}
+
+.error-news h3{
+
+    margin-bottom:10px;
+
+}

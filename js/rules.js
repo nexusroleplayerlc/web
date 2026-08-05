@@ -64,35 +64,9 @@ ${rule.content}
 
 container.innerHTML=html;
 
-enableCopy();
-
 enableSearch();
 
 }
-
-function enableCopy(){
-
-document.querySelectorAll(".open-link")
-
-.forEach(button=>{
-
-button.onclick=()=>{
-
-navigator.clipboard.writeText(
-
-location.href.split("#")[0]
-
-+"#"
-
-+button.dataset.id
-
-);
-
-button.innerHTML="Copiado ✓";
-
-setTimeout(()=>{
-
-button.innerHTML="Copiar enlace";
 
 },1500);
 

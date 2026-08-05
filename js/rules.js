@@ -68,14 +68,6 @@ enableSearch();
 
 }
 
-},1500);
-
-}
-
-});
-
-}
-
 function enableSearch(){
 
 const search=document.getElementById("ruleSearch");

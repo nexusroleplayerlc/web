@@ -1,0 +1,67 @@
+/*==========================
+ICONOS
+==========================*/
+
+.icon{
+
+    width:26px;
+
+    height:26px;
+
+    object-fit:contain;
+
+    flex-shrink:0;
+
+    user-select:none;
+
+}
+
+.icon-sm{
+
+    width:18px;
+
+    height:18px;
+
+}
+
+.icon-lg{
+
+    width:36px;
+
+    height:36px;
+
+}
+
+.quick-icon{
+
+    width:74px;
+
+    height:74px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin:auto;
+
+    margin-bottom:22px;
+
+    border-radius:18px;
+
+    background:rgba(45,212,191,.08);
+
+    border:1px solid rgba(45,212,191,.15);
+
+    transition:.35s;
+
+}
+
+.quick-card:hover .quick-icon{
+
+    transform:scale(1.08);
+
+    background:rgba(45,212,191,.15);
+
+}

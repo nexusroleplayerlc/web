@@ -1,0 +1,30 @@
+[
+    {
+        "id":"mg",
+        "category":"Rol",
+        "title":"Metagaming",
+        "tags":["Rol","Importante"],
+        "content":"Está prohibido utilizar información OOC dentro del entorno IC."
+    },
+    {
+        "id":"pg",
+        "category":"Rol",
+        "title":"Powergaming",
+        "tags":["Rol"],
+        "content":"No podrás realizar acciones imposibles o irreales."
+    },
+    {
+        "id":"vdm",
+        "category":"Rol",
+        "title":"Vehicle Deathmatch",
+        "tags":["Vehículos"],
+        "content":"No podrás atropellar jugadores con intención de matarlos."
+    },
+    {
+        "id":"spam",
+        "category":"Discord",
+        "title":"Spam",
+        "tags":["Discord"],
+        "content":"Está prohibido el flood y el spam."
+    }
+]
